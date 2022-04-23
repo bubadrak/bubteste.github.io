@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Akshar", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(11, 0, 193);
+  background: linear-gradient(
+    190deg,
+    rgba(11, 0, 193, 1) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  color: white;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+  border: 3px solid white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.486);
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: "Akshar", sans-serif;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social img {
+  width: 33px;
+}
+
+.linkslist li {
+}
+
+.linkslist li a {
+  background-color: white;
+  height: auto;
+  margin: 0 20px 20px 20px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.486);
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.paragrafo {
+  color: gray;
+  font-weight: 400;
+  margin-top: 5px;
+  display: block;
+}
